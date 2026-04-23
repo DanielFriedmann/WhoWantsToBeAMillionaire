@@ -6,9 +6,81 @@
         Background="#0d0d2b">
 
     <Grid>
-        <TextBlock Text="Spiel kommt noch..." 
-                   Foreground="White" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Linke Seite: Frage + Antworten + Joker -->
+        <Grid Grid.Column="0" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Frage -->
+            <Border Grid.Row="0" Background="#1a1a4e" CornerRadius="10" Padding="20" Margin="0,0,0,20">
+                <TextBlock x:Name="QuestionText"
+                           Text="Frage erscheint hier..."
+                           Foreground="White" FontSize="18"
+                           TextWrapping="Wrap"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+
+            <!-- Antwort Buttons -->
+            <Grid Grid.Row="1" Margin="0,0,0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="AnswerA" Grid.Row="0" Grid.Column="0" Margin="5"
+                        Content="A: Antwort" FontSize="14" Padding="10,15"
+                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
+                        BorderThickness="2" Click="Answer_Click" Tag="0"/>
+
+                <Button x:Name="AnswerB" Grid.Row="0" Grid.Column="1" Margin="5"
+                        Content="B: Antwort" FontSize="14" Padding="10,15"
+                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
+                        BorderThickness="2" Click="Answer_Click" Tag="1"/>
+
+                <Button x:Name="AnswerC" Grid.Row="1" Grid.Column="0" Margin="5"
+                        Content="C: Antwort" FontSize="14" Padding="10,15"
+                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
+                        BorderThickness="2" Click="Answer_Click" Tag="2"/>
+
+                <Button x:Name="AnswerD" Grid.Row="1" Grid.Column="1" Margin="5"
+                        Content="D: Antwort" FontSize="14" Padding="10,15"
+                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
+                        BorderThickness="2" Click="Answer_Click" Tag="3"/>
+            </Grid>
+
+            <!-- Joker Buttons -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="JokerFiftyFifty" Content="50:50"
+                        FontSize="14" FontWeight="Bold"
+                        Background="Gold" Foreground="#0d0d2b"
+                        Padding="15,8" Margin="10,0"
+                        Click="JokerFiftyFifty_Click"/>
+
+                <Button x:Name="JokerSwap" Content="Frage tauschen"
+                        FontSize="14" FontWeight="Bold"
+                        Background="Gold" Foreground="#0d0d2b"
+                        Padding="15,8" Margin="10,0"
+                        Click="JokerSwap_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Rechte Seite: Preisstufenleiter -->
+        <StackPanel Grid.Column="1" Background="#111133" x:Name="PrizePanel">
+            <TextBlock Text="Gewinnleiter" Foreground="Gold" FontWeight="Bold"
+                       FontSize="14" HorizontalAlignment="Center" Margin="0,10,0,10"/>
+        </StackPanel>
     </Grid>
 </Window>
