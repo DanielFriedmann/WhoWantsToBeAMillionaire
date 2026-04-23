@@ -10,8 +10,12 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Views\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\questions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

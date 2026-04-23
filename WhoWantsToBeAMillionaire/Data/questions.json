@@ -1,0 +1,14 @@
+[
+  {
+    "Level": 1,
+    "Text": "Was ist die Hauptstadt von Frankreich?",
+    "Answers": [ "Berlin", "Paris", "Madrid", "Rom" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 1,
+    "Text": "Wie viele Seiten hat ein Dreieck?",
+    "Answers": [ "2", "3", "4", "5" ],
+    "CorrectAnswerIndex": 1
+  }
+]

@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WhoWantsToBeAMillionaire.Services;
+using WhoWantsToBeAMillionaire.Views;
 
 namespace WhoWantsToBeAMillionaire
 {
@@ -19,6 +21,26 @@ namespace WhoWantsToBeAMillionaire
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(PlayerNameInput.Text))
+            {
+                MessageBox.Show("Bitte gib einen Namen ein!", "Kein Name",
+                                MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            GameWindow gameWindow = new GameWindow(PlayerNameInput.Text);
+            gameWindow.Show();
+            this.Close();
+        }
+
+        private void HighscoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            HighscoreWindow highscoreWindow = new HighscoreWindow();
+            highscoreWindow.Show();
         }
     }
 }

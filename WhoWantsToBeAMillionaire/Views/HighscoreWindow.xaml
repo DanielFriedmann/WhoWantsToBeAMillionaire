@@ -1,0 +1,14 @@
+<Window x:Class="WhoWantsToBeAMillionaire.Views.HighscoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Highscores" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen"
+        Background="#0d0d2b">
+
+    <Grid>
+        <TextBlock Text="Spiel kommt noch..." 
+                   Foreground="White" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"/>
+    </Grid>
+</Window>
