@@ -10,5 +10,173 @@
     "Text": "Wie viele Seiten hat ein Dreieck?",
     "Answers": [ "2", "3", "4", "5" ],
     "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 2,
+    "Text": "Welches Tier ist das größte Landtier der Welt?",
+    "Answers": [ "Nashorn", "Nilpferd", "Elefant", "Giraffe" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 2,
+    "Text": "Wie viele Minuten hat eine Stunde?",
+    "Answers": [ "30", "45", "60", "90" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 3,
+    "Text": "Welche Farbe entsteht beim Mischen von Blau und Gelb?",
+    "Answers": [ "Rot", "Orange", "Grün", "Lila" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 3,
+    "Text": "Wie viele Kontinente hat die Erde?",
+    "Answers": [ "5", "6", "7", "8" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 4,
+    "Text": "In welchem Land steht die Freiheitsstatue?",
+    "Answers": [ "Frankreich", "England", "Kanada", "USA" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 4,
+    "Text": "Welches ist das kleinste Planet in unserem Sonnensystem?",
+    "Answers": [ "Mars", "Merkur", "Venus", "Pluto" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 5,
+    "Text": "Wer schrieb Romeo und Julia?",
+    "Answers": [ "Goethe", "Schiller", "Shakespeare", "Dickens" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 5,
+    "Text": "Wie viele Knochen hat ein erwachsener Mensch?",
+    "Answers": [ "106", "206", "306", "406" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 6,
+    "Text": "In welchem Jahr begann der Zweite Weltkrieg?",
+    "Answers": [ "1935", "1937", "1939", "1941" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 6,
+    "Text": "Was ist die chemische Formel von Wasser?",
+    "Answers": [ "CO2", "H2O", "NaCl", "O2" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 7,
+    "Text": "Welches Land hat die längste Küstenlinie der Welt?",
+    "Answers": [ "Russland", "Australien", "Norwegen", "Kanada" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 7,
+    "Text": "Wie heißt die Währung Japans?",
+    "Answers": [ "Yuan", "Won", "Yen", "Baht" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 8,
+    "Text": "Welches Element hat das chemische Symbol Au?",
+    "Answers": [ "Silber", "Gold", "Aluminium", "Kupfer" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 8,
+    "Text": "In welcher Stadt findet man den Buckingham Palace?",
+    "Answers": [ "Edinburgh", "Dublin", "Manchester", "London" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 9,
+    "Text": "Wer malte die Sixtinische Kapelle?",
+    "Answers": [ "Leonardo da Vinci", "Raffael", "Michelangelo", "Botticelli" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 9,
+    "Text": "Wie viele Planeten hat unser Sonnensystem?",
+    "Answers": [ "7", "8", "9", "10" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 10,
+    "Text": "Welches ist das dichteste Element im Periodensystem?",
+    "Answers": [ "Blei", "Uran", "Osmium", "Wolfram" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 10,
+    "Text": "In welchem Jahr wurde die Berliner Mauer gebaut?",
+    "Answers": [ "1955", "1958", "1961", "1965" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 11,
+    "Text": "Wie nennt man die Wissenschaft der Pilze?",
+    "Answers": [ "Botanik", "Mykologie", "Zoologie", "Mikrobiologie" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 11,
+    "Text": "Welche Sprache hat die meisten Muttersprachler weltweit?",
+    "Answers": [ "Englisch", "Spanisch", "Mandarin", "Hindi" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 12,
+    "Text": "Was ist der Mitochondrien bekannt als?",
+    "Answers": [ "Gehirn der Zelle", "Kraftwerk der Zelle", "Küche der Zelle", "Hülle der Zelle" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 12,
+    "Text": "Welcher Mathematiker formulierte die Relativitätstheorie?",
+    "Answers": [ "Newton", "Bohr", "Einstein", "Planck" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 13,
+    "Text": "Wie heißt das Phänomen, bei dem Licht beim Durchgang durch ein Prisma in Farben aufgespalten wird?",
+    "Answers": [ "Refraktion", "Reflexion", "Dispersion", "Diffraktion" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 13,
+    "Text": "In welchem Jahr wurde die DNA-Doppelhelix entdeckt?",
+    "Answers": [ "1943", "1948", "1953", "1958" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 14,
+    "Text": "Wie nennt man die mathematische Konstante, die das Verhältnis von Kreisumfang zu Durchmesser beschreibt?",
+    "Answers": [ "Eulersche Zahl", "Pi", "Phi", "Lambda" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 14,
+    "Text": "Welches Organ produziert Insulin im menschlichen Körper?",
+    "Answers": [ "Leber", "Niere", "Pankreas", "Milz" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 15,
+    "Text": "Wie viele Primzahlen gibt es zwischen 1 und 100?",
+    "Answers": [ "23", "25", "27", "29" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 15,
+    "Text": "Welches ist das seltenste natürlich vorkommende Element auf der Erde?",
+    "Answers": [ "Francium", "Astat", "Technetium", "Promethium" ],
+    "CorrectAnswerIndex": 1
   }
 ]

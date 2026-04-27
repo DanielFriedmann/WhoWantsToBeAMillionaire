@@ -5,6 +5,38 @@
         WindowStartupLocation="CenterScreen"
         Background="#0d0d2b">
 
+	<Window.Resources>
+		<Style x:Key="AnswerButtonStyle" TargetType="Button">
+			<Setter Property="Background" Value="#1a1a4e"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="BorderBrush" Value="Gold"/>
+			<Setter Property="BorderThickness" Value="2"/>
+			<Setter Property="FontSize" Value="14"/>
+			<Setter Property="Padding" Value="10,15"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Border x:Name="border"
+								Background="{TemplateBinding Background}"
+								BorderBrush="{TemplateBinding BorderBrush}"
+								BorderThickness="{TemplateBinding BorderThickness}"
+								CornerRadius="5"
+								Padding="{TemplateBinding Padding}">
+							<ContentPresenter HorizontalAlignment="Center"
+											  VerticalAlignment="Center"/>
+						</Border>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter TargetName="border" Property="Background" Value="#2e2e7e"/>
+								<Setter TargetName="border" Property="BorderBrush" Value="#FFD700"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -40,25 +72,21 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <Button x:Name="AnswerA" Grid.Row="0" Grid.Column="0" Margin="5"
-                        Content="A: Antwort" FontSize="14" Padding="10,15"
-                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
-                        BorderThickness="2" Click="Answer_Click" Tag="0"/>
+				<Button x:Name="AnswerA" Grid.Row="0" Grid.Column="0" Margin="5"
+					 Content="A: Antwort" Click="Answer_Click" Tag="0"
+					 Style="{StaticResource AnswerButtonStyle}"/>
 
-                <Button x:Name="AnswerB" Grid.Row="0" Grid.Column="1" Margin="5"
-                        Content="B: Antwort" FontSize="14" Padding="10,15"
-                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
-                        BorderThickness="2" Click="Answer_Click" Tag="1"/>
+				<Button x:Name="AnswerB" Grid.Row="0" Grid.Column="1" Margin="5"
+						Content="B: Antwort" Click="Answer_Click" Tag="1"
+						Style="{StaticResource AnswerButtonStyle}"/>
 
-                <Button x:Name="AnswerC" Grid.Row="1" Grid.Column="0" Margin="5"
-                        Content="C: Antwort" FontSize="14" Padding="10,15"
-                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
-                        BorderThickness="2" Click="Answer_Click" Tag="2"/>
+				<Button x:Name="AnswerC" Grid.Row="1" Grid.Column="0" Margin="5"
+						Content="C: Antwort" Click="Answer_Click" Tag="2"
+						Style="{StaticResource AnswerButtonStyle}"/>
 
-                <Button x:Name="AnswerD" Grid.Row="1" Grid.Column="1" Margin="5"
-                        Content="D: Antwort" FontSize="14" Padding="10,15"
-                        Background="#1a1a4e" Foreground="White" BorderBrush="Gold"
-                        BorderThickness="2" Click="Answer_Click" Tag="3"/>
+				<Button x:Name="AnswerD" Grid.Row="1" Grid.Column="1" Margin="5"
+						Content="D: Antwort" Click="Answer_Click" Tag="3"
+						Style="{StaticResource AnswerButtonStyle}"/>
             </Grid>
 
             <!-- Joker Buttons -->
@@ -77,10 +105,73 @@
             </StackPanel>
         </Grid>
 
-        <!-- Rechte Seite: Preisstufenleiter -->
-        <StackPanel Grid.Column="1" Background="#111133" x:Name="PrizePanel">
-            <TextBlock Text="Gewinnleiter" Foreground="Gold" FontWeight="Bold"
-                       FontSize="14" HorizontalAlignment="Center" Margin="0,10,0,10"/>
-        </StackPanel>
+		<!-- Preisstufenleiter -->
+		<Grid Grid.Column="1" Background="#111133">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+
+			<TextBlock Grid.Row="0" Text="Gewinnleiter" Foreground="Gold"
+					   FontWeight="Bold" FontSize="14"
+					   HorizontalAlignment="Center" Margin="0,10,0,6"/>
+
+			<ItemsControl Grid.Row="1" x:Name="PrizePanel"
+						  VerticalAlignment="Top" Margin="8,0,8,8">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Border Margin="0,2" Padding="8,5" CornerRadius="5"
+								BorderThickness="1.5">
+							<Border.Style>
+								<Style TargetType="Border">
+									<Setter Property="Background" Value="#1a1a4e"/>
+									<Setter Property="BorderBrush" Value="#333366"/>
+									<Style.Triggers>
+										<DataTrigger Binding="{Binding IsActive}" Value="True">
+											<Setter Property="Background" Value="#B8860B"/>
+											<Setter Property="BorderBrush" Value="Gold"/>
+										</DataTrigger>
+										<DataTrigger Binding="{Binding IsReached}" Value="True">
+											<Setter Property="Background" Value="#1a3a1a"/>
+											<Setter Property="BorderBrush" Value="LimeGreen"/>
+										</DataTrigger>
+										<DataTrigger Binding="{Binding IsSafetyNet}" Value="True">
+											<Setter Property="BorderBrush" Value="Orange"/>
+										</DataTrigger>
+									</Style.Triggers>
+								</Style>
+							</Border.Style>
+							<Grid>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="22"/>
+									<ColumnDefinition Width="*"/>
+								</Grid.ColumnDefinitions>
+								<TextBlock Grid.Column="0" Text="{Binding Level}"
+										   Foreground="#aaaacc" FontSize="10"
+										   VerticalAlignment="Center"/>
+								<TextBlock Grid.Column="1"
+										   Text="{Binding Amount, StringFormat='{}{0:N0} €'}"
+										   Foreground="White" FontSize="12"
+										   VerticalAlignment="Center">
+									<TextBlock.Style>
+										<Style TargetType="TextBlock">
+											<Style.Triggers>
+												<DataTrigger Binding="{Binding IsActive}" Value="True">
+													<Setter Property="FontWeight" Value="Bold"/>
+													<Setter Property="Foreground" Value="White"/>
+												</DataTrigger>
+												<DataTrigger Binding="{Binding IsReached}" Value="True">
+													<Setter Property="Foreground" Value="LimeGreen"/>
+												</DataTrigger>
+											</Style.Triggers>
+										</Style>
+									</TextBlock.Style>
+								</TextBlock>
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</Grid>
     </Grid>
 </Window>

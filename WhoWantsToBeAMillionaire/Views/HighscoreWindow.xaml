@@ -1,14 +1,55 @@
 <Window x:Class="WhoWantsToBeAMillionaire.Views.HighscoreWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Highscores" Height="600" Width="900"
+        Title="Bestenliste" Height="500" Width="600"
         WindowStartupLocation="CenterScreen"
         Background="#0d0d2b">
 
-    <Grid>
-        <TextBlock Text="Spiel kommt noch..." 
-                   Foreground="White" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center"/>
-    </Grid>
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Grid.Row="0" Text="🏆 Bestenliste"
+                   Foreground="Gold" FontSize="24" FontWeight="Bold"
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+		<DataGrid Grid.Row="1" x:Name="HighscoreList"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  Background="#1a1a4e"
+                  Foreground="White"
+                  BorderBrush="Gold"
+                  RowBackground="#1a1a4e"
+                  AlternatingRowBackground="#111133"
+                  GridLinesVisibility="None"
+                  HeadersVisibility="Column">
+
+			<DataGrid.ColumnHeaderStyle>
+				<Style TargetType="DataGridColumnHeader">
+					<Setter Property="Background" Value="#0d0d2b"/>
+					<Setter Property="Foreground" Value="Gold"/>
+					<Setter Property="FontWeight" Value="Bold"/>
+					<Setter Property="Padding" Value="8,6"/>
+				</Style>
+			</DataGrid.ColumnHeaderStyle>
+
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Platz"       Binding="{Binding Platz}"       Width="50"/>
+				<DataGridTextColumn Header="Name"        Binding="{Binding PlayerName}"  Width="*"/>
+				<DataGridTextColumn Header="Level"       Binding="{Binding Level}"        Width="60"/>
+				<DataGridTextColumn Header="Gewinn"      Binding="{Binding PrizeAmount, StringFormat='{}{0:N0} €'}" Width="120"/>
+				<DataGridTextColumn Header="Datum"       Binding="{Binding PlayedAt, StringFormat='{}{0:dd.MM.yyyy}'}" Width="100"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<Button Grid.Row="2" Content="Zurück zum Hauptmenü"
+                Margin="0,20,0,0" Padding="20,10"
+                Background="Gold" Foreground="#0d0d2b"
+                FontWeight="Bold" FontSize="14"
+                HorizontalAlignment="Center"
+                Click="BackToMenu_Click"/>
+	</Grid>
 </Window>
