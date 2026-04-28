@@ -43,7 +43,7 @@
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
 
-        <!-- Linke Seite: Frage + Antworten + Joker -->
+        
         <Grid Grid.Column="0" Margin="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -51,7 +51,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <!-- Frage -->
+            
             <Border Grid.Row="0" Background="#1a1a4e" CornerRadius="10" Padding="20" Margin="0,0,0,20">
                 <TextBlock x:Name="QuestionText"
                            Text="Frage erscheint hier..."
@@ -61,7 +61,7 @@
                            HorizontalAlignment="Center"/>
             </Border>
 
-            <!-- Antwort Buttons -->
+            
             <Grid Grid.Row="1" Margin="0,0,0,20">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -89,7 +89,7 @@
 						Style="{StaticResource AnswerButtonStyle}"/>
             </Grid>
 
-            <!-- Joker Buttons -->
+            
             <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:Name="JokerFiftyFifty" Content="50:50"
                         FontSize="14" FontWeight="Bold"
@@ -105,7 +105,7 @@
             </StackPanel>
         </Grid>
 
-		<!-- Preisstufenleiter -->
+		
 		<Grid Grid.Column="1" Background="#111133">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="Auto"/>

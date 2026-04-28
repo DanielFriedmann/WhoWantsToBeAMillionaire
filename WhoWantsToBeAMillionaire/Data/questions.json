@@ -12,6 +12,30 @@
     "CorrectAnswerIndex": 1
   },
   {
+    "Level": 1,
+    "Text": "Welche Farbe hat der Himmel an einem klaren Tag?",
+    "Answers": [ "Grün", "Rot", "Blau", "Gelb" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 1,
+    "Text": "Wie viele Tage hat eine Woche?",
+    "Answers": [ "5", "6", "7", "8" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 1,
+    "Text": "Was ist die Hauptstadt von Deutschland?",
+    "Answers": [ "München", "Hamburg", "Berlin", "Köln" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 1,
+    "Text": "Wie viele Finger hat eine menschliche Hand?",
+    "Answers": [ "4", "5", "6", "7" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
     "Level": 2,
     "Text": "Welches Tier ist das größte Landtier der Welt?",
     "Answers": [ "Nashorn", "Nilpferd", "Elefant", "Giraffe" ],
@@ -22,6 +46,30 @@
     "Text": "Wie viele Minuten hat eine Stunde?",
     "Answers": [ "30", "45", "60", "90" ],
     "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 2,
+    "Text": "Welches Tier kann fliegen?",
+    "Answers": [ "Hund", "Katze", "Adler", "Kuh" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 2,
+    "Text": "Was kommt nach dem Winter?",
+    "Answers": [ "Herbst", "Sommer", "Frühling", "Monsun" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 2,
+    "Text": "Wie viele Beine hat eine Spinne?",
+    "Answers": [ "4", "6", "8", "10" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 2,
+    "Text": "Welche Frucht ist gelb und gebogen?",
+    "Answers": [ "Apfel", "Banane", "Kirsche", "Pflaume" ],
+    "CorrectAnswerIndex": 1
   },
   {
     "Level": 3,
@@ -36,6 +84,30 @@
     "CorrectAnswerIndex": 2
   },
   {
+    "Level": 3,
+    "Text": "Was ist die größte Ozeane der Welt?",
+    "Answers": [ "Atlantik", "Indischer Ozean", "Pazifik", "Arktis" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 3,
+    "Text": "Welches Instrument hat Tasten, Saiten und Pedale?",
+    "Answers": [ "Gitarre", "Geige", "Klavier", "Trompete" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 3,
+    "Text": "Wie viele Stunden hat ein Tag?",
+    "Answers": [ "12", "20", "24", "36" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 3,
+    "Text": "Welches Land ist bekannt für die Pyramiden?",
+    "Answers": [ "Griechenland", "Italien", "Ägypten", "Indien" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
     "Level": 4,
     "Text": "In welchem Land steht die Freiheitsstatue?",
     "Answers": [ "Frankreich", "England", "Kanada", "USA" ],
@@ -43,9 +115,33 @@
   },
   {
     "Level": 4,
-    "Text": "Welches ist das kleinste Planet in unserem Sonnensystem?",
+    "Text": "Welches ist der kleinste Planet in unserem Sonnensystem?",
     "Answers": [ "Mars", "Merkur", "Venus", "Pluto" ],
     "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 4,
+    "Text": "Wer schrieb die Odyssee?",
+    "Answers": [ "Sokrates", "Platon", "Homer", "Aristoteles" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 4,
+    "Text": "Welches ist das längste Fluss der Welt?",
+    "Answers": [ "Amazonas", "Nil", "Mississippi", "Jangtse" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 4,
+    "Text": "In welchem Land wurde Mozart geboren?",
+    "Answers": [ "Deutschland", "Schweiz", "Österreich", "Italien" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 4,
+    "Text": "Wie viele Spieler hat eine Fußballmannschaft auf dem Platz?",
+    "Answers": [ "9", "10", "11", "12" ],
+    "CorrectAnswerIndex": 2
   },
   {
     "Level": 5,
@@ -57,6 +153,30 @@
     "Level": 5,
     "Text": "Wie viele Knochen hat ein erwachsener Mensch?",
     "Answers": [ "106", "206", "306", "406" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 5,
+    "Text": "Welches Element ist das häufigste in der Erdatmosphäre?",
+    "Answers": [ "Sauerstoff", "Kohlenstoff", "Stickstoff", "Wasserstoff" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 5,
+    "Text": "In welchem Jahr landeten Menschen erstmals auf dem Mond?",
+    "Answers": [ "1965", "1967", "1969", "1971" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 5,
+    "Text": "Welche Stadt ist die Hauptstadt von Japan?",
+    "Answers": [ "Osaka", "Kyoto", "Hiroshima", "Tokio" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 5,
+    "Text": "Was ist der höchste Berg der Welt?",
+    "Answers": [ "K2", "Mount Everest", "Kilimandscharo", "Mont Blanc" ],
     "CorrectAnswerIndex": 1
   },
   {
@@ -72,6 +192,30 @@
     "CorrectAnswerIndex": 1
   },
   {
+    "Level": 6,
+    "Text": "Welches ist das größte Land der Welt nach Fläche?",
+    "Answers": [ "USA", "China", "Kanada", "Russland" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 6,
+    "Text": "Wer erfand das Telefon?",
+    "Answers": [ "Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 6,
+    "Text": "Wie viele Seiten hat ein Hexagon?",
+    "Answers": [ "4", "5", "6", "7" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 6,
+    "Text": "Welches Organ filtert das Blut im menschlichen Körper?",
+    "Answers": [ "Leber", "Lunge", "Niere", "Milz" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
     "Level": 7,
     "Text": "Welches Land hat die längste Küstenlinie der Welt?",
     "Answers": [ "Russland", "Australien", "Norwegen", "Kanada" ],
@@ -81,6 +225,30 @@
     "Level": 7,
     "Text": "Wie heißt die Währung Japans?",
     "Answers": [ "Yuan", "Won", "Yen", "Baht" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 7,
+    "Text": "Welcher Planet ist der Sonne am nächsten?",
+    "Answers": [ "Venus", "Merkur", "Mars", "Erde" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 7,
+    "Text": "In welcher Stadt steht der Eiffelturm?",
+    "Answers": [ "Lyon", "Marseille", "Bordeaux", "Paris" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 7,
+    "Text": "Welches ist das häufigste Gas in der Luft?",
+    "Answers": [ "Sauerstoff", "Kohlendioxid", "Stickstoff", "Argon" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 7,
+    "Text": "Wer war der erste Präsident der USA?",
+    "Answers": [ "Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams" ],
     "CorrectAnswerIndex": 2
   },
   {
@@ -96,6 +264,30 @@
     "CorrectAnswerIndex": 3
   },
   {
+    "Level": 8,
+    "Text": "Welches ist das schnellste Landtier der Welt?",
+    "Answers": [ "Löwe", "Gepard", "Pferd", "Antilope" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 8,
+    "Text": "Wie nennt man die Wissenschaft der Sterne und Galaxien?",
+    "Answers": [ "Astrologie", "Geologie", "Astronomie", "Kosmologie" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 8,
+    "Text": "In welchem Jahr fiel die Berliner Mauer?",
+    "Answers": [ "1987", "1988", "1989", "1990" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 8,
+    "Text": "Welches Vitamin produziert der Körper durch Sonnenlicht?",
+    "Answers": [ "Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
     "Level": 9,
     "Text": "Wer malte die Sixtinische Kapelle?",
     "Answers": [ "Leonardo da Vinci", "Raffael", "Michelangelo", "Botticelli" ],
@@ -108,6 +300,30 @@
     "CorrectAnswerIndex": 1
   },
   {
+    "Level": 9,
+    "Text": "Welches Land hat die meisten Einwohner der Welt?",
+    "Answers": [ "USA", "Indien", "China", "Brasilien" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 9,
+    "Text": "Was ist die Lichtgeschwindigkeit in km/s?",
+    "Answers": [ "150.000", "200.000", "250.000", "300.000" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 9,
+    "Text": "Welches chemische Element hat die Ordnungszahl 1?",
+    "Answers": [ "Helium", "Lithium", "Wasserstoff", "Sauerstoff" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 9,
+    "Text": "In welchem Land wurde die Demokratie erfunden?",
+    "Answers": [ "Rom", "Ägypten", "Griechenland", "Persien" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
     "Level": 10,
     "Text": "Welches ist das dichteste Element im Periodensystem?",
     "Answers": [ "Blei", "Uran", "Osmium", "Wolfram" ],
@@ -117,6 +333,30 @@
     "Level": 10,
     "Text": "In welchem Jahr wurde die Berliner Mauer gebaut?",
     "Answers": [ "1955", "1958", "1961", "1965" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 10,
+    "Text": "Welches Gesetz beschreibt die Schwerkraft?",
+    "Answers": [ "Ohmsches Gesetz", "Newtonsches Gravitationsgesetz", "Boyle-Mariotte-Gesetz", "Coulombsches Gesetz" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 10,
+    "Text": "Wie heißt die Hauptstadt von Australien?",
+    "Answers": [ "Sydney", "Melbourne", "Brisbane", "Canberra" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 10,
+    "Text": "Welcher Philosoph schrieb 'Also sprach Zarathustra'?",
+    "Answers": [ "Kant", "Hegel", "Nietzsche", "Schopenhauer" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 10,
+    "Text": "Was ist die kleinste Einheit des Lebens?",
+    "Answers": [ "Atom", "Molekül", "Zelle", "Organ" ],
     "CorrectAnswerIndex": 2
   },
   {
@@ -132,6 +372,30 @@
     "CorrectAnswerIndex": 2
   },
   {
+    "Level": 11,
+    "Text": "Welches Theorem besagt, dass in einem rechtwinkligen Dreieck a²+b²=c² gilt?",
+    "Answers": [ "Eulersches Theorem", "Fermatsches Theorem", "Satz des Pythagoras", "Thalessatz" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 11,
+    "Text": "Welches Organ ist für die Blutdruckregulierung durch Renin verantwortlich?",
+    "Answers": [ "Herz", "Leber", "Niere", "Nebenniere" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 11,
+    "Text": "Wie heißt die Hauptstadt von Kanada?",
+    "Answers": [ "Toronto", "Vancouver", "Montreal", "Ottawa" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 11,
+    "Text": "Welches Zeitalter folgte auf die Steinzeit?",
+    "Answers": [ "Eisenzeit", "Mittelalter", "Bronzezeit", "Römerzeit" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
     "Level": 12,
     "Text": "Was ist der Mitochondrien bekannt als?",
     "Answers": [ "Gehirn der Zelle", "Kraftwerk der Zelle", "Küche der Zelle", "Hülle der Zelle" ],
@@ -142,6 +406,30 @@
     "Text": "Welcher Mathematiker formulierte die Relativitätstheorie?",
     "Answers": [ "Newton", "Bohr", "Einstein", "Planck" ],
     "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 12,
+    "Text": "Was versteht man unter dem Begriff 'Osmose'?",
+    "Answers": [ "Diffusion von Gasen", "Bewegung von Wasser durch eine semipermeable Membran", "Auflösung von Salzen", "Elektrischer Ladungsausgleich" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 12,
+    "Text": "Welche Säure befindet sich im menschlichen Magen?",
+    "Answers": [ "Schwefelsäure", "Salpetersäure", "Salzsäure", "Essigsäure" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 12,
+    "Text": "In welchem Jahrhundert lebte Galileo Galilei?",
+    "Answers": [ "15. Jahrhundert", "16. Jahrhundert", "17. Jahrhundert", "18. Jahrhundert" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 12,
+    "Text": "Welches Prinzip besagt, dass man Ort und Impuls eines Teilchens nicht gleichzeitig exakt messen kann?",
+    "Answers": [ "Pauli-Prinzip", "Heisenbergsche Unschärferelation", "Schrödinger-Gleichung", "Bohrsches Atommodell" ],
+    "CorrectAnswerIndex": 1
   },
   {
     "Level": 13,
@@ -156,6 +444,30 @@
     "CorrectAnswerIndex": 2
   },
   {
+    "Level": 13,
+    "Text": "Wie nennt man den Prozess, bei dem Pflanzen Licht in chemische Energie umwandeln?",
+    "Answers": [ "Zellatmung", "Glykolyse", "Photosynthese", "Chemosynthese" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 13,
+    "Text": "Welches Teilchen hat eine positive Ladung und befindet sich im Atomkern?",
+    "Answers": [ "Elektron", "Neutron", "Proton", "Positron" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 13,
+    "Text": "Welche Blutgruppe ist der universelle Spender?",
+    "Answers": [ "A", "B", "AB", "0" ],
+    "CorrectAnswerIndex": 3
+  },
+  {
+    "Level": 13,
+    "Text": "Wie heißt der Effekt, bei dem sich bewegende Objekte eine veränderte Frequenz abstrahlen?",
+    "Answers": [ "Magnus-Effekt", "Doppler-Effekt", "Bernoulli-Effekt", "Fotoeffekt" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
     "Level": 14,
     "Text": "Wie nennt man die mathematische Konstante, die das Verhältnis von Kreisumfang zu Durchmesser beschreibt?",
     "Answers": [ "Eulersche Zahl", "Pi", "Phi", "Lambda" ],
@@ -165,6 +477,30 @@
     "Level": 14,
     "Text": "Welches Organ produziert Insulin im menschlichen Körper?",
     "Answers": [ "Leber", "Niere", "Pankreas", "Milz" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 14,
+    "Text": "Was beschreibt die Eulersche Identität e^(iπ)+1=0?",
+    "Answers": [ "Eine Näherungsformel für Pi", "Eine Verbindung der fünf wichtigsten Konstanten der Mathematik", "Den Umfang eines Einheitskreises", "Die Basis des natürlichen Logarithmus" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 14,
+    "Text": "Wie nennt man Proteine, die biochemische Reaktionen katalysieren?",
+    "Answers": [ "Hormone", "Enzyme", "Lipide", "Nukleotide" ],
+    "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 14,
+    "Text": "Welche Theorie erklärt die Entstehung des Universums?",
+    "Answers": [ "Steady-State-Theorie", "Inflationstheorie", "Urknalltheorie", "Stringtheorie" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 14,
+    "Text": "Welches chemische Element hat die höchste Elektronegativität?",
+    "Answers": [ "Sauerstoff", "Chlor", "Fluor", "Stickstoff" ],
     "CorrectAnswerIndex": 2
   },
   {
@@ -178,5 +514,29 @@
     "Text": "Welches ist das seltenste natürlich vorkommende Element auf der Erde?",
     "Answers": [ "Francium", "Astat", "Technetium", "Promethium" ],
     "CorrectAnswerIndex": 1
+  },
+  {
+    "Level": 15,
+    "Text": "Wer formulierte das Unvollständigkeitstheorem, das Grenzen formaler Systeme beschreibt?",
+    "Answers": [ "Hilbert", "Cantor", "Gödel", "Turing" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 15,
+    "Text": "Welches Protein ist für den Sauerstofftransport im Blut verantwortlich?",
+    "Answers": [ "Albumin", "Fibrinogen", "Hämoglobin", "Myosin" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 15,
+    "Text": "Wie nennt man die Hypothese, dass das Universum aus winzigen schwingenden Energiefäden besteht?",
+    "Answers": [ "Quantenfeldtheorie", "Superpositionstheorie", "Stringtheorie", "Schleifenquantengravitation" ],
+    "CorrectAnswerIndex": 2
+  },
+  {
+    "Level": 15,
+    "Text": "Welches mathematische Problem wurde erst 1994 von Andrew Wiles bewiesen?",
+    "Answers": [ "Riemannsche Vermutung", "Goldbachsche Vermutung", "Großer Fermatscher Satz", "Poincaré-Vermutung" ],
+    "CorrectAnswerIndex": 2
   }
 ]
