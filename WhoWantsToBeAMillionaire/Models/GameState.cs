@@ -15,9 +15,7 @@ namespace WhoWantsToBeAMillionaire.Models
         public GameState(string playerName)
         {
             PlayerName = playerName;
-        }
-
-        
+        }        
 
     }
 }
