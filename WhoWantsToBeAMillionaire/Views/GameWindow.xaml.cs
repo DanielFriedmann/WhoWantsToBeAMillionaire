@@ -73,6 +73,7 @@ namespace WhoWantsToBeAMillionaire.Views
             for (int i = 0; i < _answerButtons.Length; i++)
             {
                 _answerButtons[i].Content = $"{prefixes[i]}: {_currentQuestion.Answers[i]}";
+                _answerButtons[i].IsEnabled = true;
                 _answerButtons[i].Background = new SolidColorBrush(Color.FromRgb(0x1a, 0x1a, 0x4e));
                 _answerButtons[i].BorderBrush = System.Windows.Media.Brushes.Gold;
                 _answerButtons[i].Opacity = 1;
@@ -81,7 +82,7 @@ namespace WhoWantsToBeAMillionaire.Views
 
         private void Answer_Click(object sender, RoutedEventArgs e)
         {
-            if (_isAnswering) return; // Doppelklick verhindern
+            if (_isAnswering) return; 
             _isAnswering = true;
 
             int selectedIndex = int.Parse(((Button)sender).Tag.ToString());

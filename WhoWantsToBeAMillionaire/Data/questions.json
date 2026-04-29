@@ -409,12 +409,6 @@
   },
   {
     "Level": 12,
-    "Text": "Was versteht man unter dem Begriff 'Osmose'?",
-    "Answers": [ "Diffusion von Gasen", "Bewegung von Wasser durch eine semipermeable Membran", "Auflösung von Salzen", "Elektrischer Ladungsausgleich" ],
-    "CorrectAnswerIndex": 1
-  },
-  {
-    "Level": 12,
     "Text": "Welche Säure befindet sich im menschlichen Magen?",
     "Answers": [ "Schwefelsäure", "Salpetersäure", "Salzsäure", "Essigsäure" ],
     "CorrectAnswerIndex": 2
@@ -478,12 +472,6 @@
     "Text": "Welches Organ produziert Insulin im menschlichen Körper?",
     "Answers": [ "Leber", "Niere", "Pankreas", "Milz" ],
     "CorrectAnswerIndex": 2
-  },
-  {
-    "Level": 14,
-    "Text": "Was beschreibt die Eulersche Identität e^(iπ)+1=0?",
-    "Answers": [ "Eine Näherungsformel für Pi", "Eine Verbindung der fünf wichtigsten Konstanten der Mathematik", "Den Umfang eines Einheitskreises", "Die Basis des natürlichen Logarithmus" ],
-    "CorrectAnswerIndex": 1
   },
   {
     "Level": 14,
